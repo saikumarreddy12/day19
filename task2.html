@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body{
+    background-color: rgb(240, 238, 238);
+}
+
+#sat{
+position: relative;
+height: 870px;}
+
+#sat-img{
+
+    height: 100px;
+   
+}
+
+#img-text{
+
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    font-size: 22px;
+    color: white;
+    z-index: 1;
+}
+
+#sat-text1{
+    color: white;
+    position: absolute;
+    top: 49%;
+    left: 40%;
+    font-size: 22px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#join-us{
+
+    background-color: rgb(228, 36, 36);
+    color: white;
+    position: absolute;
+    top: 59%;
+    left: 45%;
+    padding: 8px;
+    width: 140px;
+    font-family:  monospace;
+}
+
+#faith{
+
+    text-align: center;
+    font-family: sans-serif;
+}
+#box1{
+    display: inline-block;
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.para-text{
+    text-align: center;
+    
+}
+
+#box2{
+    display: inline-block;
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+/* .para-text1{
+    text-align: center;
+    
+} */
+
+#box3{
+    display: inline-block;
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    margin-left: 35px;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+#add-venue{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(228, 36, 36);
+    position: relative;
+}
+
+#time{
+    position: absolute;
+    top: 27%;
+    left: 110px;
+    line-height: 0.5;
+}
+#add-venue-text1{
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+}
+#add-venue-text2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#add{
+    position: absolute;
+    top: 27%;
+    left: 470px;
+    line-height: 0.5;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+
+#read-more{
+
+    position: absolute;
+    top: 34%;
+    left: 1000px;
+    background-color: transparent;
+    border: 1px solid white;
+    text-shadow: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#read-more a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+   
+}
+
+#venue{
+    position: relative;
+    left: 70px;
+    top: 30px;
+    background-color: white;
+    width: 700px;
+    border-radius: 3px;
+}
+
+.venue-all{
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#venue-text{
+    padding-left: 50px;
+}
+
+#venue-text1{
+    padding-left: 50px;
+    color: rgb(228, 36, 36);
+    font-style: italic;
+}
+
+#venue-text2{
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+#days{
+    display: inline-block;
+    background-color: rgb(228, 36, 36);
+ position: relative;
+ top: -210px;
+ left: 800px;
+ width: 400px;
+ height: 220px;
+ color: white;
+ border-radius:4px ;
+}
+
+#day{
+    display: inline-block;
+    line-height: 1px;
+    position: absolute;
+    top: 37%;
+    left: 40px;
+    border-right:1px solid white ;
+    padding-right: 10px;
+    
+    
+}
+
+#hours{
+    display: inline-block;
+    line-height: 1px;
+    position: absolute;
+    top: 37%;
+    left: 110px;
+    border-right:1px solid white ;
+    padding-right: 10px;
+}
+#min{
+    display: inline-block;
+    line-height: 1px;
+    position: absolute;
+    top: 37%;
+    left: 180px;
+    border-right:1px solid white ;
+    padding-right: 10px;
+
+}
+
+#sec{
+    display: inline-block;
+    line-height: 1px;
+    position: absolute;
+    top: 37%;
+    right: 100px;
+    
+
+}
+
+.num{
+
+    font-size: 26px;
+}
+.letters{
+    font-size: small;
+}
+#events{
+
+    background-color: white;
+    height: 600px;
+    margin-top: -150px;
+    position: relative;
+}
+
+#our-events{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#events-one{
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    margin-left: 90px;
+}
+
+#event-text1{
+    color:  rgb(228, 36, 36);
+    font-style: italic;
+}
+
+.Morning-gather{
+    line-height: 7px;
+}
+
+#event-text3{
+    margin-top: -30px;
+}
+
+#events2{
+
+    display: inline-block;
+    position: absolute;
+    left: 400px;
+    width: 300px;
+    margin-left: 90px;
+
+
+}
+
+#events3{
+
+    display: inline-block;
+    position: absolute;
+    left: 900px;
+    width: 300px;
+    margin-left: -30px;
+}
+
+
+    </style>
+    
+  </head>
+  <body>
+    <div id="sat">
+      <div id="sat-img">
+        <img src=https://i.swncdn.com/media/950w/via/images/2023/01/04/28916/28916-church-gettyimages-drewbuzz_source_file.jpg width="100%" alt="" />
+      </div>
+
+      <div id="img-text">
+        <h1 id="sat-text">SIMPLE CSS TEMPLATE</h1>
+      </div>
+
+      <p id="sat-text1">WELCOME TO OUR CHURCH</p>
+      <button id="join-us">JOIN WITH US</button>
+    </div>
+
+    <h1 id="faith">STATEMENT OF FAITH</h1>
+
+    <div id="box1">
+      <h4 id="belive-text">What We Believe</h4>
+      <p class="para-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+        obcaecati et necessitatibus corporis reprehenderit nisi, qui facere
+        expedita, quod quaerat fugiat officia iure nesciunt voluptatibus! Fuga
+        eveniet iusto alias ullam!
+      </p>
+    </div>
+
+    <div id="box2">
+      <h4>Who We Are</h4>
+      <p class="para-text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+        quibusdam distinctio eligendi aperiam inventore dicta animi iusto quis
+        natus. Aliquid eaque architecto quas ipsa totam inventore veritatis
+        quasi et perferendis?
+      </p>
+    </div>
+
+    <div id="box3">
+      <h4>How We Live</h4>
+      <p class="para-text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+        quibusdam distinctio eligendi aperiam inventore dicta animi iusto quis
+        natus. Aliquid eaque architecto quas ipsa totam inventore veritatis
+        quasi et perferendis?
+      </p>
+    </div>
+
+    <div id="add-venue">
+      <div id="time">
+        <p id="add-venue-text1">Monday, 10.00 Am - Friday, 10.00 Am</p>
+        <p id="add-venue-text2">WELCOME TO OUR CHURCH</p>
+      </div>
+
+      <div id="add">
+        <p id="add-venue-text1">St Paul Church</p>
+        <p id="add-venue-text2">510 102th Aw NE, Bellevue, WA 68005</p>
+      </div>
+      <button id="read-more"><a href="">READ MORE</a></button>
+    </div>
+
+    <div id="venue">
+      <h1 class="venue-all">Welcome to our church</h1>
+      <p id="venue-text">Monday, 10.00 Am - Friday, 10.00 Am</p>
+      <p id="venue-text1">St Paul Church</p>
+      <p id="venue-text2">510 102th Aw NE, Bellevue, WA 68005</p>
+    </div>
+
+    <div id="days">
+      <div id="day">
+        <p class="num">200</p>
+        <p class="letters">Days</p>
+      </div>
+
+      <div id="hours">
+        <p class="num">16</p>
+        <p class="letters">Hours</p>
+      </div>
+
+      <div id="min">
+        <p class="num">42</p>
+        <p class="letters">Minutes</p>
+      </div>
+
+      <div id="sec">
+        <p class="num">40</p>
+        <p class="letters">Seconds</p>
+      </div>
+    </div>
+
+    <div id="events">
+      <h1 id="our-events">OUR EVENTS</h1>
+
+      <div id="events-one">
+        <img src=https://i.pinimg.com/736x/49/3c/bf/493cbf70d435008cc1802a8f401012f1.jpg height="210px"  alt="" />
+        <h4>Morning gathering</h4>
+        <p id="event-text" class="Morning-gather">Monday, 10.00 Am - Friday, 10.00 Am</p>
+        <p id="event-text1" class="Morning-gather">St Paul Church</p>
+        <p id="event-text2" class="Morning-gather">510 102th Aw NE, Bellevue, WA 68005</p>
+        <br /><br />
+        <p id="event-text3" >        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+        repellendus ex fugit veritatis doloremque reiciendis? Ex aspernatur nisi
+        reprehenderit quaerat vel eligendi impedit odio ratione animi!
+        Voluptatum vitae repudiandae quam!
+        
+      </p>
+
+      </div>
+
+
+      <div id="events2"> 
+        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGpGjMKOlXrCK6acjtFWZ0-JEKWGh8Ac8lr6oLBsKrw&s height="210px"  alt="" />
+        <h4>Morning gathering</h4>
+        <p id="event-text" class="Morning-gather">Monday, 10.00 Am - Friday, 10.00 Am</p>
+        <p id="event-text1" class="Morning-gather">St Paul Church</p>
+        <p id="event-text2" class="Morning-gather">510 102th Aw NE, Bellevue, WA 68005</p>
+        <br /><br />
+        <p id="event-text3" >        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+        repellendus ex fugit veritatis doloremque reiciendis? Ex aspernatur nisi
+        reprehenderit quaerat vel eligendi impedit odio ratione animi!
+        Voluptatum vitae repudiandae quam!
+        
+      </p>
+      </div>
+      <div id="events3">
+        <img src= https://media.istockphoto.com/id/497970870/photo/woman-lighting-candles-in-a-church.jpg?s=612x612&w=0&k=20&c=Ycry9ZpMVD8kQT43n_Hi_7Tolu44uUGkBxNtTSyMtm4=         height="210px"  alt="" />
+        <h4>Morning gathering</h4>
+        <p id="event-text" class="Morning-gather">Monday, 10.00 Am - Friday, 10.00 Am</p>
+        <p id="event-text1" class="Morning-gather">St Paul Church</p>
+        <p id="event-text2" class="Morning-gather">510 102th Aw NE, Bellevue, WA 68005</p>
+        <br /><br />
+        <p id="event-text3" >        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+        repellendus ex fugit veritatis doloremque reiciendis? Ex aspernatur nisi
+        reprehenderit quaerat vel eligendi impedit odio ratione animi!
+        Voluptatum vitae repudiandae quam!
+        
+      </p>
+      </div>
+    </div>
+  </body>
+</html>
